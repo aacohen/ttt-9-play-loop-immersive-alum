@@ -7,4 +7,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
-# Make sure to execute #play below
+loop_count = 0
+def play(board)
+while loop_count <10
+  turn(board)
+  loop_count +=1
+end# Make sure to execute #play below
