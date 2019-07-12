@@ -9,7 +9,8 @@ display_board(board)
 
 loop_count = 0
 def play(board)
-while loop_count <10
-  turn(board)
-  loop_count +=1
+  while loop_count <10
+    turn(board)
+    loop_count +=1
+  end
 end# Make sure to execute #play below
