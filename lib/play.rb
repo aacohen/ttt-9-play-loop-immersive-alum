@@ -39,7 +39,7 @@ end
 
 def play(board)
   loop_count = 0
-  while loop_count < 10
+  until loop_count = 10
     turn(board)
     loop_count +=1
   end
